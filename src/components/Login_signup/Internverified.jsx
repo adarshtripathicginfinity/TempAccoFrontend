@@ -6,7 +6,8 @@ import "./Signup.css";
 
 const Internverified = () => {
   return (
-    <div className="container-fluid p-4 mt-3">
+    <div >
+    <div className="container-fluid p-4 mt-4 d-flex justify-content-center align-items-center">
       <div className="inner_div2 ">
 
         <div className="row mb-4">
@@ -20,12 +21,16 @@ const Internverified = () => {
           </div>
         </div>
 
-        <div className="row tick d-flex align-content-center justify-content-center">
+        <div className="row">
+          <div className="d-flex" style={{justifyContent: 'center'}}>
           <img src={Tick} alt="" />
+          </div>
         </div>
 
         <div className="row">
-          <p>Registration Successful</p>
+          <div className="d-flex" style={{justifyContent: 'center'}}>
+            <p className="regis">Registration Successful</p>
+          </div>
         </div>
 
         <div className="row mb-4 mt-1 ">
@@ -38,13 +43,14 @@ const Internverified = () => {
           </div>
         </div>
 
-        <div className="row nspace mb-4">
+        <div className="row nspace pb-4">
           <div className="col-12 butn">
             <button className=" py-1 px-3">Continue</button>
           </div>
         </div>
 
       </div>
+    </div>
     </div>
   );
 };

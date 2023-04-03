@@ -9,7 +9,7 @@ const Home = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Signup/>} />
-          <Route path="/varified" element={<Internverified/>}/>
+          <Route path="/verified" element={<Internverified/>}/>
         </Routes>
       </Router>
     </>
