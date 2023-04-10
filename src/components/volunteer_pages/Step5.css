@@ -1,0 +1,22 @@
+.subheado {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #343435;
+  }
+  
+  .flatbtn p {
+      color: #343435;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 12px 12px;
+    }
+
+    .p_input {
+      margin-bottom: 6px;
+    }
